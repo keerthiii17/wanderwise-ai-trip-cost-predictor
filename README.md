@@ -25,22 +25,12 @@
 - Pandas, NumPy
 - Scikit-learn, XGBoost
 - Streamlit
-
----
-## 📂 Project Structure
-trip-cost-project/
-│
-├── app.py # Streamlit frontend
-├── trip_cost_model.pkl # Trained ML model
-├── requirements.txt # Dependencies
-
 ---
 ## ▶️ Run Locally
-1. Clone the repository:
-   git clone https://github.com/keerthiii17/wanderwise-ai-trip-cost-predictor.git
-cd wanderwise-ai-trip-cost-predictor
-2.Install dependencies:
-   pip install -r requirements.txt
-3.Run the app:
+1.Clone the repository: 
+  git clone https://github.com/keerthiii17/wanderwise-ai-trip-cost-predictor.git cd wanderwise-ai-trip-cost-predictor 
+2.Install dependencies: 
+  pip install -r requirements.txt 
+3.Run the app: 
   streamlit run app.py
 
