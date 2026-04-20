@@ -1,12 +1,46 @@
-## 🧠 ML Approach
+# 🌍 Trip Cost Prediction using Machine Learning
+ An interactive machine learning application that predicts total trip cost based on user inputs such as destination, duration, accommodation type, and travel preferences.
+---
+## 🚀 Features
+- Predicts total trip cost using ML models
+- Supports dynamic user input via Streamlit UI
+- Uses real-world datasets (bus fares + cost of living)
+- Cost per person calculation
+- Clean and interactive glassmorphism UI
 
-- Performed data preprocessing and feature engineering
-- Generated synthetic trip scenarios using multiple datasets
-- Trained and compared multiple regression models:
+---
+## 🧠 ML Approach
+- Data preprocessing and feature engineering
+- Synthetic trip data generation using multiple datasets
+- Models used:
   - Random Forest Regressor
   - XGBoost Regressor
-- Selected Random Forest for final prediction based on performance
 - Evaluation metrics:
   - Mean Absolute Error (MAE)
   - R² Score
-- Deployed the model using Streamlit for real-time user input prediction 
+
+---
+## 🛠️ Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn, XGBoost
+- Streamlit
+
+---
+## 📂 Project Structure
+trip-cost-project/
+│
+├── app.py # Streamlit frontend
+├── trip_cost_model.pkl # Trained ML model
+├── requirements.txt # Dependencies
+
+---
+## ▶️ Run Locally
+1. Clone the repository:
+   git clone https://github.com/keerthiii17/wanderwise-ai-trip-cost-predictor.git
+cd wanderwise-ai-trip-cost-predictor
+2.Install dependencies:
+   pip install -r requirements.txt
+3.Run the app:
+  streamlit run app.py
+
