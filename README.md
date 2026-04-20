@@ -26,11 +26,5 @@
 - Scikit-learn, XGBoost
 - Streamlit
 ---
-## ▶️ Run Locally
-1.Clone the repository: 
-  git clone https://github.com/keerthiii17/wanderwise-ai-trip-cost-predictor.git cd wanderwise-ai-trip-cost-predictor 
-2.Install dependencies: 
-  pip install -r requirements.txt 
-3.Run the app: 
-  streamlit run app.py
+
 
