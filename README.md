@@ -9,3 +9,4 @@
 - Evaluation metrics:
   - Mean Absolute Error (MAE)
   - R² Score
+- Deployed the model using Streamlit for real-time user input prediction 
